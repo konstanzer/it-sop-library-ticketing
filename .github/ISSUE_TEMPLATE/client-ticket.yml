@@ -1,0 +1,55 @@
+name: Client Support Ticket
+description: Track client requests and support work
+labels: ["ticket", "needs-triage"]
+body:
+  - type: input
+    attributes:
+      label: Client Name
+      description: Which client is this for?
+      placeholder: "Acme Corp"
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Ticket Type
+      options:
+        - Bug / Fix
+        - New Setup
+        - Maintenance
+        - Question / Consult
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Priority
+      options:
+        - Critical (down/blocked)
+        - High (urgent)
+        - Normal (standard)
+        - Low (when time allows)
+
+  - type: textarea
+    attributes:
+      label: Issue Description
+      description: What does the client need?
+      placeholder: "Describe the issue or request in detail..."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Steps Taken (if any)
+      placeholder: "What have you tried so far?"
+
+  - type: textarea
+    attributes:
+      label: Internal Notes
+      description: Visible only to your team
+      placeholder: "Troubleshooting notes, next steps, etc."
+
+  - type: input
+    attributes:
+      label: Estimated Hours
+      placeholder: "e.g., 1.5"
