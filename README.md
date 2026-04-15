@@ -1,10 +1,9 @@
 # 🖥️ IT SOP Library + Ticketing
 
-## 📋 Open Client Tickets
-[Link to GitHub Issues with label `needs-triage`]
-
 ## 🛠️ Active Work
-[Link to GitHub Projects kanban board]
+[Link to GitHub Projects kanban board](https://github.com/users/konstanzer/projects/3)
+## 📋 Open Client Tickets
+[Link to GitHub Issues](https://github.com/konstanzer/it-sop-library-ticketing/issues)
 
 ## 📚 SOPs
-- [Workstation Setup](./templates/workstation-setup/README.md)
+- [Directory](https://github.com/konstanzer/it-sop-library-ticketing/tree/main/docs/sop)
