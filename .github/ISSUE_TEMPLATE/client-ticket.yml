@@ -5,7 +5,6 @@ body:
   - type: input
     attributes:
       label: Client Name
-      description: Which client is this for?
       placeholder: "Acme Corp"
     validations:
       required: true
@@ -14,10 +13,10 @@ body:
     attributes:
       label: Ticket Type
       options:
-        - Bug / Fix
+        - Account Access
         - New Setup
-        - Maintenance
-        - Question / Consult
+        - Network
+        - Maintainance
     validations:
       required: true
 
@@ -26,28 +25,26 @@ body:
       label: Priority
       options:
         - Critical (down/blocked)
-        - High (urgent)
-        - Normal (standard)
+        - High
+        - Normal
         - Low (when time allows)
 
   - type: textarea
     attributes:
       label: Issue Description
-      description: What does the client need?
-      placeholder: "Describe the issue or request in detail..."
+      placeholder: "What does the client need?"
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: Steps Taken (if any)
+      label: Steps Taken (if applicable)
       placeholder: "What have you tried so far?"
 
   - type: textarea
     attributes:
       label: Internal Notes
-      description: Visible only to your team
-      placeholder: "Troubleshooting notes, next steps, etc."
+      placeholder: "Troubleshooting notes, next steps, client communication, etc."
 
   - type: input
     attributes:
