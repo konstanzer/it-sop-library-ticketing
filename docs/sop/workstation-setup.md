@@ -1,19 +1,25 @@
-# Workstation Setup SOP
+# IT SOP: Workstation Setup
+## Version 1.0.0
 
-## Prerequisites
-- [ ] Windows 11 PC, internet connection
-- [ ] Local admin credentials
-
-## Software Installation
-
+### 1. Purpose: Provide guidance to set up a new PC and connect it to the Phoenix IT ecosystem.
+### 2. Scope: This is bench work for a field tech when a client's new PC arrives.
+### 3. Roles & responsibilities
+* Performed by field tech
+* Reviewed by supervisor
+### 4. Tools & Materials
+* Windows 11 PC
+* Peripherals (keyboard, monitor, mouse)
+* WiFi connection
+### 5. Safety precautions: None
+### 6. Procedures
+* Boot
+* Software installation
+  
 | Software | Source | Critical Step |
 | :--- | :--- | :--- |
 | Adobe Reader | `get.adobe.com/reader` | Click "More options" → UNCHECK McAfee |
-| Chrome | `google.com/chrome` | Download offline installer |
+| Ninite | `ninite.com` | Add Chrome, OpenShell |
 
-## Verification Checklist
-- [ ] No McAfee present
-- [ ] Adobe opens without "Free Trial" prompt
-
-## Related Troubleshooting
-- See `../troubleshooting/adobe-mcafee.md` if McAfee appears
+### 7. Troubleshooting: None
+### 8. References: None
+### 9. Revision History: None
